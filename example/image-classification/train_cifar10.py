@@ -27,8 +27,8 @@ def download_cifar10():
     data_dir="data"
     fnames = (os.path.join(data_dir, "cifar10_train.rec"),
               os.path.join(data_dir, "cifar10_val.rec"))
-    download_file('http://data.mxnet.io/data/cifar10/cifar10_val.rec', fnames[1])
-    download_file('http://data.mxnet.io/data/cifar10/cifar10_train.rec', fnames[0])
+    #download_file('http://data.mxnet.io/data/cifar10/cifar10_val.rec', fnames[1])
+    #download_file('http://data.mxnet.io/data/cifar10/cifar10_train.rec', fnames[0])
     return fnames
 
 if __name__ == '__main__':
